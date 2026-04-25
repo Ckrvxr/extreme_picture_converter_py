@@ -32,7 +32,7 @@ def main():
     done = 0
 
     for i, f in enumerate(files, 1):
-        out = dst_dir / (f.stem + '_High_Quality_Lossless.avif')
+        out = dst_dir / (f.stem + '_High_Quality.avif')
         print(f'\r🔄 [{i}/{total}] Processing: {f.name}', end='', flush=True)
         
         if convert_to_avif(f, out):
