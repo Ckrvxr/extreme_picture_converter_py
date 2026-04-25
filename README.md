@@ -23,7 +23,7 @@ A simple Python script that converts images to high-quality AVIF format using FF
 3. Run the script:
 
 ```bash
-python "2.2 avif_converter_high_quality_resize.py"
+python "2. AVIFConverter_High_Quality.py"
 ```
 
 4. Converted AVIF files will appear in the `output` folder
